@@ -5,9 +5,9 @@
     //dialect: "mysql"
     
  // });
-  
-var connection = mysql.createConnection(process.env.JAWSDB_URL);
+
 var mysql = require('mysql');
+var connection = mysql.createConnection(process.env.JAWSDB_URL);
 //if (process.env.JAWSDB_URL){
 //    connection= mysql.createConnection(process.env.JAWSDB_URL);
 //} 
