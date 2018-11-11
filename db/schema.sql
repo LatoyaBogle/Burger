@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS   edkvx7sku7lu76iw;
-USE edkvx7sku7lu76iw;
+CREATE DATABASE IF NOT EXISTS   burgers_db;
+USE burgers_db;
 
 CREATE TABLE burgers (
     id int NOT NULL AUTO_INCREMENT,
