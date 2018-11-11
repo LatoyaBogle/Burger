@@ -1,3 +1,12 @@
+var Sequelize = require("sequelize");
+var sequelize = new Sequelize("daburger", "root", "", {
+    host: "localhost",
+    //port: 3306,
+    dialect: "mysql"
+    
+  });
+  
+
 var mysql = require('mysql');
 var connection = mysql.createConnection({
     host: 'localhost',
@@ -14,3 +23,4 @@ connection.connect(function(err){
 });
 
 module.exports = connection;
+module.exports = sequelize;
