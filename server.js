@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var exphbs = require('express-handlebars');
 var methodOverride = require('method-override');
-
+var sequelize = require('sequelize-heroku').connect(require('sequelize'));
 var app = express();
 app.use(express.static(__dirname+ '/public'));
 
