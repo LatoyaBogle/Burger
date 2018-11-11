@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS   burgers_db;
+CREATE DATABASE IF NOT EXISTS   edkvx7sku7lu76iw;
 USE edkvx7sku7lu76iw;
 
 CREATE TABLE burgers (
