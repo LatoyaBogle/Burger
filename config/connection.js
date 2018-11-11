@@ -6,19 +6,20 @@
     
  // });
   
-var connection;
+var connection = mysql.createConnection(process.env.JAWSDB_URL);
 var mysql = require('mysql');
-if (process.env.JAWSDB_URL){
-    connection= mysql.createConnection(process.env.JAWSDB_URL);
-} else {
-    connection =mysql.createConnection({
-    host: 'localhost',
+//if (process.env.JAWSDB_URL){
+//    connection= mysql.createConnection(process.env.JAWSDB_URL);
+//} 
+//else {
+  //  connection =mysql.createConnection({
+ //   host: 'localhost',
     //port:3000,
-    user: 'root',
-    password:"",
-    database:'burgers_db'
-});
-};
+ //   user: 'root',
+  //  password:"",
+  //  database:'burgers_db'
+//});
+//};
 
 
 connection.connect(function(err){
