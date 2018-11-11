@@ -1,10 +1,10 @@
-var Sequelize = require("sequelize");
-var sequelize = new Sequelize("burgers_db", "root", "", {
-    host: "localhost",
+//var Sequelize = require("sequelize");
+//var sequelize = new Sequelize("burgers_db", "root", "", {
+   // host: "localhost",
     //port: 3306,
-    dialect: "mysql"
+    //dialect: "mysql"
     
-  });
+ // });
   
 var connection;
 var mysql = require('mysql');
@@ -28,4 +28,4 @@ connection.connect(function(err){
 });
 
 module.exports = connection;
-module.exports = sequelize;
+//module.exports = sequelize;
